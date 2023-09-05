@@ -1,3 +1,83 @@
-.lables{
-    background-color: aqua;
-}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  h2{
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .calculator{
+    background: #ffffff;
+    border-radius: 12px;
+    width: 250px;
+    padding: 10px;
+    border: 9px double #000;
+
+    height:320px;
+  }
+
+  .result{
+    color: #ffffff;
+    padding: 10px;
+    text-align: right;
+    font-size: 24px;
+    border-radius: 5px;
+    width: 200px;
+    max-width: 200%;
+    margin: 2px;
+  }
+
+  button{
+    color: rgb(255, 255, 255);
+    background: #000000;
+    border-radius: 12px;
+    margin: 2px;
+  }
+
+  .operators{
+    color: aqua;
+    
+  }
+
+  .numbers{
+    
+
+    margin-bottom: 10%;
+  }
+  
+  button.calc{
+    background: #ff4646;
+    height: 100px;
+  }
+
+  button.clear{
+    background-color: crimson;
+  }
+
+  .buttoncontainer {
+    display: flex;
+  }
+  
+  button.sign{
+    background: #949494;
+    columns: 5;
+    width: 45px;
+  }
+
+  button.intg{
+    margin: 5px;
+    width: 50px;
+  }
+
+  .string{
+    background: #000;
+    height: 40px;
+    align-items: center;
+  }
